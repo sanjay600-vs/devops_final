@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: test
-        image: sanjayvs600/agri
+        image: sanjayvs600/agri1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
