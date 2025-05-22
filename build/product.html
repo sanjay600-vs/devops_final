@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Agri Marketplace</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('your-background-image-url.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 60px 0;
+        }
+        .product-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Product Listing Section -->
+<section class="container my-5 overlay">
+    <h2 class="text-center mb-4 text-dark">Our Products</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Product 1 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card-img-top product-image" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Tomatoes</h5>
+                    <p class="card-text">Fresh and juicy organic tomatoes directly from our farms.</p>
+                    <p class="card-text text-success">$2.50 / kg</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat similar blocks for more products -->
+        <!-- Product 2 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card-img-top product-image" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Carrots</h5>
+                    <p class="card-text">Crisp and sweet organic carrots for your healthy diet.</p>
+                    <p class="card-text text-success">$1.80 / kg</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card-img-top product-image" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Potatoes</h5>
+                    <p class="card-text">Versatile organic potatoes perfect for any dish.</p>
+                    <p class="card-text text-success">$1.50 / kg</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card-img-top product-image" alt="Product 4">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Apples</h5>
+                    <p class="card-text">Crisp, sweet, and perfect for snacking or baking.</p>
+                    <p class="card-text text-success">$3.00 / kg</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 5 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card-img-top product-image" alt="Product 5">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Spinach</h5>
+                    <p class="card-text">Fresh organic spinach packed with nutrients.</p>
+                    <p class="card-text text-success">$1.20 / bunch</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 6 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card-img-top product-image" alt="Product 6">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Peppers</h5>
+                    <p class="card-text">Colorful and flavorful organic peppers.</p>
+                    <p class="card-text text-success">$2.00 / pack</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 7 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card-img-top product-image" alt="Product 7">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Broccoli</h5>
+                    <p class="card-text">Nutritious and fresh organic broccoli.</p>
+                    <p class="card-text text-success">$1.75 / kg</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 8 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card-img-top product-image" alt="Product 8">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Lettuce</h5>
+                    <p class="card-text">Crisp and fresh organic lettuce leaves.</p>
+                    <p class="card-text text-success">$1.00 / bunch</p>
+                    <a href="#" class="btn btn-success">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 9 -->
+        <div class="col">
+            <div class="card product-card h-100">
+                <img src="https://via.placeholder.com/150" class="card

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri Marketplace</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Agri Marketplace</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#marketplace">Marketplace</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="cart.html">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-light text-dark text-center p-5">
+    <div class="container">
+        <h1>Welcome to Agri Marketplace</h1>
+        <p class="lead">Connecting farmers and buyers directly for a more transparent and fair trade.</p>
+        <a href="#marketplace" class="btn btn-success btn-lg mt-3">Explore Marketplace</a>
+    </div>
+</section>
+
+<!-- Search Bar -->
+<section class="container my-4">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search for products, farmers, or categories" aria-label="Search">
+        <button class="btn btn-success" type="button">Search</button>
+    </div>
+</section>
+
+<!-- Marketplace Section -->
+<section id="marketplace" class="container my-5">
+    <h2 class="text-center mb-4">Marketplace</h2>
+    <div class="row">
+        <!-- Product Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://www.thespruce.com/thmb/S9QcicSHxYKNsI0fdfXgwbBSIP8=/5750x3827/filters:no_upscale():max_bytes(150000):strip_icc()/growing-tomatoes-1403296-01-e87fc6443b55423890448cabb12efeba.jpg" class="card-img-top" alt="Organic Tomatoes">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Tomatoes</h5>
+                    <p class="card-text">Fresh organic tomatoes directly from the farm.</p>
+                    <p class="text-success">$350 per kg</p>
+                    <button class="btn btn-success buy-now-btn" data-id="1" data-name="Organic Tomatoes" data-price="350" data-img="https://www.thespruce.com/thmb/S9QcicSHxYKNsI0fdfXgwbBSIP8=/5750x3827/filters:no_upscale():max_bytes(150000):strip_icc()/growing-tomatoes-1403296-01-e87fc6443b55423890448cabb12efeba.jpg">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.hnb6FUguf6S6OmlBoAYOvwHaD5&pid=Api&P=0&h=180" class="card-img-top" alt="Organic Tomatoes">
+                <div class="card-body">
+                    <h5 class="card-title">Organic food</h5>
+                    <p class="card-text">Fresh organic foods directly from the farm.</p>
+                    <p class="text-success">$250 per kg</p>
+                    <button class="btn btn-success buy-now-btn" data-id="1" data-name="Organic Tomatoes" data-price="250" data-img="https://tse2.mm.bing.net/th?id=OIP.hnb6FUguf6S6OmlBoAYOvwHaD5&pid=Api&P=0&h=180">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/z/fresh-organic-carrots-garden-62659092.jpg" class="card-img-top" alt="Organic Tomatoes">
+                <div class="card-body">
+                    <h5 class="card-title">Organic grains</h5>
+                    <p class="card-text">Fresh organic grains directly from the farm.</p>
+                    <p class="text-success">$150 per kg</p>
+                    <button class="btn btn-success buy-now-btn" data-id="1" data-name="Organic Tomatoes" data-price="150" data-img="https://thumbs.dreamstime.com/z/fresh-organic-carrots-garden-62659092.jpg">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/z/fresh-organic-carrots-garden-62659092.jpg" class="card-img-top" alt="Organic Tomatoes">
+                <div class="card-body">
+                    <h5 class="card-title">Organic carrots</h5>
+                    <p class="card-text">Fresh organic carrots directly from the farm.</p>
+                    <p class="text-success">$650 per kg</p>
+                    <button class="btn btn-success buy-now-btn" data-id="1" data-name="Organic Tomatoes" data-price="150" data-img="https://thumbs.dreamstime.com/z/fresh-organic-carrots-garden-62659092.jpg">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.rZGQzE28bVYNPjLRvJ5hBwHaFN?w=1920&h=1350&rs=1&pid=ImgDetMain" class="card-img-top" alt="Organic Tomatoes">
+                <div class="card-body">
+                    <h5 class="card-title">Organic plants</h5>
+                    <p class="card-text">Fresh or directly organic plants from the farm.</p>
+                    <p class="text-success">$950 per kg</p>
+                    <button class="btn btn-success buy-now-btn" data-id="1" data-name="Organic plants" data-price="950" data-img="https://th.bing.com/th/id/OIP.rZGQzE28bVYNPjLRvJ5hBwHaFN?w=1920&h=1350&rs=1&pid=ImgDetMain">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/z/fresh-organic-carrots-garden-62659092.jpg" class="card-img-top" alt="Organic Tomatoes">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Tomatoes</h5>
+                    <p class="card-text">Fresh organic tomatoes directly from the farm.</p>
+                    <p class="text-success">$150 per kg</p>
+                    <button class="btn btn-success buy-now-btn" data-id="1" data-name="Organic Tomatoes" data-price="150" data-img="https://thumbs.dreamstime.com/z/fresh-organic-carrots-garden-62659092.jpg">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Other Product Cards -->
+        <!-- Add more product cards as needed -->
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p class="text-center">Agri Marketplace is a platform designed to connect farmers directly with buyers. Our goal is to eliminate middlemen, ensuring fair prices for farmers and fresh products for consumers.</p>
+    </div>
+</section>
+
+<!-- User Account Section -->
+<section id="login" class="container my-5">
+    <h2 class="text-center mb-4">User Account</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Login</h4>
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="loginEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="loginEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="loginPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="loginPassword" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-success">Login</button>
+                <div id="responseMessage" class="mt-3"></div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h4>Register</h4>
+            <form id="registerForm">
+                <div class="mb-3">
+                    <label for="registerName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="registerName" placeholder="Enter your full name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="registerEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="registerEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="registerPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="registerPassword" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-success">Register</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="contactName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="contactName" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-6">
+            <label for="contactEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="Your Email" required>
+        </div>
+        <div class="col-12">
+            <label for="contactMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="contactMessage" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-success">Send Message</button>
+        </div>
+    </form>
+</section>
+
+<script>
+    // Handle login form submission
+    document.getElementById('loginForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('loginEmail').value;
+        const password = document.getElementById('loginPassword').value;
+
+        try {
+            const response = await fetch('/api/users/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, password })
+            });
+            const data = await response.json();
+
+            const responseMessage = document.getElementById('responseMessage');
+            if (response.ok) {
+                responseMessage.innerHTML = `<div class="alert alert-success">${data.msg}</div>`;
+            } else {
+                responseMessage.innerHTML = `<div class="alert alert-danger">${data.msg}</div>`;
+            }
+        } catch (err) {
+            document.getElementById('responseMessage').innerHTML = `<div class="alert alert-danger">An error occurred: ${err.message}</div>`;
+        }
+    });
+
+    // Handle Buy Now button click
+   // Function to add a product to the cart
+function addToCart(productId, productName, productPrice, productImg) {
+    // Retrieve existing cart data from local storage or initialize an empty array
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Check if the product already exists in the cart
+    const existingProductIndex = cart.findIndex(item => item.id === productId);
+    if (existingProductIndex !== -1) {
+        // If it exists, increment the quantity
+        cart[existingProductIndex].quantity += 1;
+    } else {
+        // Otherwise, add the new product to the cart
+        const product = {
+            id: productId,
+            name: productName,
+            price: productPrice,
+            img: productImg,
+            quantity: 1
+        };
+        cart.push(product);
+    }
+
+    // Save the updated cart back to local storage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Show an alert or notification to the user
+    alert(`Product "${productName}" has been added to your cart.`);
+}
+
+// Handle Buy Now button click
+document.addEventListener('DOMContentLoaded', () => {
+    const buyNowButtons = document.querySelectorAll('.buy-now-btn');
+    buyNowButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const productId = button.dataset.id;
+            const productName = button.dataset.name;
+            const productPrice = button.dataset.price;
+            const productImg = button.dataset.img;
+
+            // Add the product to the cart
+            addToCart(productId, productName, productPrice, productImg);
+        });
+    });
+});
+
+</script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
