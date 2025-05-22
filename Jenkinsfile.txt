@@ -2,17 +2,28 @@ pipeline {
     agent any
 
     stages {
-        stage('Build and Push Docker Image') {
+        stage('Clone') {
             steps {
-                // Grant executable permissions to the build script
-                sh 'chmod +x build.sh'
-
-                // Build the Docker image using the build script
-                sh './build.sh'
-
-                
+                git 'https://github.com/sanjay600-vs/devops_final.git'
             }
         }
 
+        stage('Install Dependencies') {
+            steps {
+                sh 'pip install -r requirements.txt'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh 'pytest --junitxml=test-results.xml'
+            }
+        }
+
+        stage('Publish Results') {
+            steps {
+                junit 'test-results.xml'
+            }
+        }
     }
 }
